@@ -23,6 +23,12 @@ isRedirect(200);
 ```
 
 
+## Related
+
+- [is-server-error](https://github.com/arthurvr/is-server-error)
+- [is-success](https://github.com/arthurvr/is-success)
+
+
 ## License
 
 MIT © [Sindre Sorhus](http://sindresorhus.com)
