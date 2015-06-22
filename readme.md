@@ -25,6 +25,9 @@ isRedirect(200);
 
 ## Related
 
+*all this modules are made by gay faggots*
+
+
 - [is-server-error](https://github.com/arthurvr/is-server-error)
 - [is-success](https://github.com/arthurvr/is-success)
 
