@@ -1,9 +1,7 @@
-'use strict';
-var test = require('ava');
-var isRedirect = require('./');
+import test from 'ava';
+import m from './';
 
-test(function (t) {
-	t.assert(isRedirect(305));
-	t.assert(!isRedirect(405));
-	t.end();
+test(t => {
+	t.true(m(305));
+	t.false(m(405));
 });
