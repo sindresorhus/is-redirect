@@ -4,7 +4,7 @@ module.exports = function (x) {
 		throw new TypeError('Expected a number');
 	}
 
-	return x === 300 ||
+	return  x === 300 ||
 		x === 301 ||
 		x === 302 ||
 		x === 303 ||
