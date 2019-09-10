@@ -1,7 +1,7 @@
 import test from 'ava';
-import m from './';
+import isRedirect from '.';
 
-test(t => {
-	t.true(m(305));
-	t.false(m(405));
+test('main', t => {
+	t.true(isRedirect(305));
+	t.false(isRedirect(405));
 });
