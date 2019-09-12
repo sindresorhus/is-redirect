@@ -5,11 +5,5 @@ module.exports = statusCode => {
 		throw new TypeError('Expected a number');
 	}
 
-	return statusCode === 300 ||
-		statusCode === 301 ||
-		statusCode === 302 ||
-		statusCode === 303 ||
-		statusCode === 305 ||
-		statusCode === 307 ||
-		statusCode === 308;
+	return [300, 301, 302, 303, 305, 307, 308].indexOf(statusCode) !== -1;
 };
