@@ -2,18 +2,16 @@
 
 > Check if a number is a [redirect HTTP status code](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes#3xx_Redirection)
 
-
 ## Install
 
 ```
 $ npm install is-redirect
 ```
 
-
 ## Usage
 
 ```js
-const isRedirect = require('is-redirect');
+import isRedirect from 'is-redirect';
 
 isRedirect(302);
 //=> true
@@ -22,12 +20,10 @@ isRedirect(200);
 //=> false
 ```
 
-
 ## Related
 
 - [is-server-error](https://github.com/arthurvr/is-server-error)
 - [is-success](https://github.com/arthurvr/is-success)
-
 
 ---
 
